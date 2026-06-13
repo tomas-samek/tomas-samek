@@ -30,11 +30,12 @@ it in training (see the benchmark below).
 
 📊 **[llm-framework-benchmark](https://github.com/tomas-samek/llm-framework-benchmark)** —
 External-oracle-graded benchmark of how well AI coding agents build the
-*same* framework-neutral spec on different stacks. Early results (Claude
-Opus 4.8, n=5) surfaced a sharp LLM **version-recency** effect — the same
-model scored 100% on Spring Boot 3.3.5 but a 0% median on the brand-new
-4.0.6 — while tiko, despite being absent from training data, reached an
-86% median through its in-repo affordances.
+*same* framework-neutral spec on different stacks, run across three models
+(Claude Sonnet 4.6 / Fable 5 / Opus 4.8, n=5). It surfaced a sharp,
+model-dependent **version-recency** effect — a new Spring Boot major (4.0.6)
+was a near-total wall for Sonnet 4.6 (median 0%) yet solved by Fable 5 and
+Opus 4.8 (median 100%) — while tiko, absent from training data, reached
+**86–100% median** through its in-repo affordances.
 
 🧠 **[trie-memory](https://github.com/tomas-samek/trie-memory)** —
 Experimental MCP memory server in Rust. Append-only hierarchical
