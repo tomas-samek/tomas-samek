@@ -2,6 +2,8 @@
 
 I build whatever I find interesting, and push it until it can't go any faster.
 
+**→ [tomas-samek.github.io](https://tomas-samek.github.io)** — projects, writing, and the longer story.
+
 ### Now
 
 - 🔧 **[tiko-di](https://github.com/tomas-samek/tiko-di)** — compile-time orchestrator for Java 21+.
@@ -16,4 +18,4 @@ I build whatever I find interesting, and push it until it can't go any faster.
 <sub>Background: 19 years of Java, 13 of them at Oracle on enterprise platform infrastructure. Based in Prague.
 Side experiments live at [@jerry-samek](https://github.com/jerry-samek).</sub>
 
-[LinkedIn](https://linkedin.com/in/tomassamek)
+[Site](https://tomas-samek.github.io) · [LinkedIn](https://linkedin.com/in/tomassamek)
